@@ -1,7 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(236, 251, 251); 
-    padding: 400px;  
+    padding: 350px;  
+}
+
+h5 {
+    font-style: italic;
+    color: rgb(75, 43, 43);
+    padding-left: 150px;  
 }
 
 form {
@@ -17,4 +23,17 @@ input {
     box-sizing: border-box;
     border: 1px solid rgb(174, 174, 200);
     border-radius: 6px;
+}
+button {
+    background-color: rgb(46, 132, 224);
+    color: white;
+    padding: 10px; 
+    border: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(138, 181, 226);
 }
